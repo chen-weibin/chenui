@@ -21,3 +21,8 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# 自己的笔记测试等文件
+笔记.md
+markdown快捷键.txt
+test.html

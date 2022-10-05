@@ -1,24 +1,18 @@
-# c-relax
+# chen-ui
 
-## Project setup
-```
-npm install
-```
+## 前言
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+* chen-ui是一个有趣的ui组件库，包含了一些开发中可能会经常用到的组件，也包含一些个人觉得有趣但不是很常用的组件。
+* 目前该组件库还没有成型。如果有想使用该组件库的一些组件，可以到该组件的目录下复制该组件代码。后期如果组件多起来的话会考虑发布到npm上供大家使用。
+* 设计想法：区别于常见的ui组件库，想支持更多的自定义ui样式，例如颜色、大小等。
+* 该组件库会不定时更新一些组件（主人很懒）。
+* 欢迎有兴趣的小伙伴加入。有好的意见也欢迎提出来。
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## 介绍及使用
 
-### Lints and fixes files
-```
-npm run lint
-```
+1. 目前还没有一个完整的组件，所以介绍暂时忽略
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 联系
+
+> QQ：2278775938
+> QQ邮箱：2278775938@qq.com
