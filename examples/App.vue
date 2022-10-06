@@ -1,8 +1,11 @@
 <template>
   <div id="app">
     <div class="main">
-      <c-progress :percent.sync="percent"/>
+      <c-progress :percent.sync="percent" is-change/>
+      <c-progress :percent.sync="percent" progress-color="skyblue" solid-color="white"/>
+      <c-progress :percent.sync="percent" is-show-percent/>
     </div>
+    
   </div>
 </template>
 
@@ -33,5 +36,6 @@ export default {
   height: 400px;
   margin: 0 auto;
   background-color: rgb(216, 216, 216);
+  
 }
 </style>

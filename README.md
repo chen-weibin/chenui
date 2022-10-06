@@ -10,9 +10,36 @@
 
 ## 介绍及使用
 
-1. 目前还没有一个完整的组件，所以介绍暂时忽略
+1. CProgress 进度条
+
+> 位置：/packages/Progress/src
+
+具体样式
+
+<center>
+    <img src="./readmephotos/cprogress.jpg">
+</center>
+
+代码示例
+
+```html
+    <c-progress :percent.sync="percent" />
+    <c-progress :percent.sync="percent" progress-color="skyblue" solid-color="white" />
+    <c-progress :percent.sync="percent" is-show-percent />
+```
+
+|属性|描述|类型|可选值|默认|
+|----|----|----|----|----|
+|percent|进度条百分比，**必须**|Number|0-100|none|
+|width|宽度|Number|--|100%|
+|solidColor|滑块颜色|String|css支持的所有颜色，包括rgb/rgba/十六进制等|rgb(252, 191, 35)|
+|progressColor|进度条颜色|String|css支持的所有颜色，包括rgb/rgba/十六进制等|rgb(56, 230, 91)|
+|isShowPercent|是否显示百分比|Boolean|true/false|false|
+|isChange|是否允许改变进度|Boolean|true/false|false|
+
+2. 敬请期待
 
 ## 联系
 
-> QQ：2278775938
+> QQ：2278775938  
 > QQ邮箱：2278775938@qq.com
